@@ -26,6 +26,14 @@ nav{
 	padding-bottom: 20px;
 }
 
+a{
+	border-bottom: 2px solid transparent;
+	margin-right: 20px;
+}
+
+a:hover{
+	border-color: white;
+}
 img{
 	margin-top: 40px;
 	margin-left: 8px;
@@ -72,3 +80,38 @@ li,ul{
 	padding: 0;
 }
 
+footer{
+	background-color: #0D2C40;
+	color: white;
+	text-transform: uppercase:;
+	padding: 1px 0;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+footer:hover{
+	background: #0D2C40;
+}
+
+.copyright{
+	float: left;
+}
+
+.message{
+	float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+	color: #F15B31;
+	font-weight: 700;
+}
